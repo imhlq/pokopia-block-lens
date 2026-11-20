@@ -1,0 +1,40 @@
+id = "block_lens"
+name = "Block Lens"
+version = "1.2.0"
+description = "Shows block names, item icons, move hints, and crop growth stages."
+loader = ">=0.7.0 <1.0.0"
+game = ["2.0.1"]
+affects = "visual"
+
+[[settings]]
+key = "show_icons"
+type = "bool"
+default = true
+label = "Show item icons"
+
+[[settings]]
+key = "debug_mode"
+type = "bool"
+default = false
+label = "Show unnamed targets by ID"
+
+[[settings]]
+key = "toggle_key"
+type = "key"
+default = "F8"
+label = "Toggle Block Lens"
+restart = true
+
+[[settings]]
+key = "details_key"
+type = "key"
+default = "F7"
+label = "Hold for block ID and coordinates"
+restart = true
+
+[[settings]]
+key = "position"
+type = "choice"
+choices = ["Top center", "Top left", "Top right"]
+default = "Top center"
+label = "Tooltip position"
