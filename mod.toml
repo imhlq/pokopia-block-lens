@@ -1,7 +1,7 @@
 id = "block_lens"
 name = "JADE for Pokopia"
-version = "1.2.1"
-description = "Shows block names, item icons, move hints, and crop growth stages."
+version = "1.2.2"
+description = "Shows information about what you are looking at."
 license = "MIT"
 loader = ">=0.7.0 <1.0.0"
 game = ["2.0.1"]

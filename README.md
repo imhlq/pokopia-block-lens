@@ -1,6 +1,8 @@
 # JADE for Pokopia
 
-JADE for Pokopia shows a small nameplate for the block you are looking at. Point the camera at a nearby block, or point at it directly in the game's mouse mode. The label uses the game's language. Enable **Show unnamed targets by ID** in the Mods settings to inspect scenery with no recognized name.
+Jade is the information HUD mod for Pokémon Pokopia on Recompia. It was inspired by Snownee's Jade mod for Minecraft. [Minecraft Jade](https://modrinth.com/mod/jade)
+
+Point the camera at a nearby block, or point at it directly in the game's mouse mode. The tooltip shows the block's name in the game's language. Enable **Show unnamed targets by ID** in the Mods settings to inspect scenery with no recognized name.
 
 JADE was previously called Block Lens. The package still uses the `block_lens` mod ID so existing settings carry over.
 
