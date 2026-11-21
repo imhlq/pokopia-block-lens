@@ -90,7 +90,7 @@ static int on_frame(MtMod *mod, const MtEvent *event, void *user) {
         overlay_started = overlay_start() != 0;
         if (!overlay_started) {
             overlay_failed = true;
-            host->log(mod, MT_LOG_WARN, "Could not start the Block Lens overlay");
+            host->log(mod, MT_LOG_WARN, "Could not start the JADE for Pokopia overlay");
             return MT_EVENT_CONTINUE;
         }
     }
@@ -123,7 +123,7 @@ MT_EXPORT int mod_init(const MtHost *mod_host, MtMod *mod) {
     if (strcmp(mod_host->game_version, "2.0.1") != 0 ||
         strncmp(mod_host->game_build_id, supported_build,
                 sizeof supported_build - 1) != 0) {
-        mod_host->log(mod, MT_LOG_WARN, "Block Lens requires Pokopia 2.0.1a (76a489f3)");
+        mod_host->log(mod, MT_LOG_WARN, "JADE for Pokopia requires Pokopia 2.0.1a (76a489f3)");
         return MT_ERR_VERSION;
     }
 

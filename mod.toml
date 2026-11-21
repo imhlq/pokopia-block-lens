@@ -1,7 +1,8 @@
 id = "block_lens"
-name = "Block Lens"
-version = "1.2.0"
+name = "JADE for Pokopia"
+version = "1.2.1"
 description = "Shows block names, item icons, move hints, and crop growth stages."
+license = "MIT"
 loader = ">=0.7.0 <1.0.0"
 game = ["2.0.1"]
 affects = "visual"
@@ -22,7 +23,7 @@ label = "Show unnamed targets by ID"
 key = "toggle_key"
 type = "key"
 default = "F8"
-label = "Toggle Block Lens"
+label = "Toggle JADE"
 restart = true
 
 [[settings]]

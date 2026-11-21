@@ -1,4 +1,4 @@
-"""Build the Windows Block Lens Modtopia package with Recompia's bundled Zig."""
+"""Build JADE for Pokopia with Recompia's bundled Windows Zig compiler."""
 
 import argparse
 from pathlib import Path
@@ -47,7 +47,7 @@ def main():
         archive.write(manifest, "mod.toml")
         archive.write(dll, "bin/windows-x64/mod.dll")
         archive.write(HERE / "README.md", "README.md")
-        archive.write(HERE / "LICENSE", "licenses/Block-Lens-LICENSE")
+        archive.write(HERE / "LICENSE", "licenses/JADE-for-Pokopia-LICENSE")
         archive.write(SDK / "LICENSE", "licenses/Modtopia-LICENSE")
     print(f"Built {package}")
     if args.install:
